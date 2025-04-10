@@ -19,7 +19,7 @@ const vidRouter = require('./routers/Videouploadrouter');
 const cors = require('cors');
 // const connectDb = require('./utils/db');
 const corsOption = {
-    origin: "http://localhost:3000",
+    origin: "*",
     method: "GET,POST,PUT,DELETE,PATCH,HEAD",
     credentials: true,
 }
